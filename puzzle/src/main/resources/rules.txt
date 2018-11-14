@@ -1,0 +1,9 @@
+WELCOME TO THE TROPICAL ISELAND!
+In this game you must guess where are the same pictures.
+To choose the picture - click by the mouse on it.
+If two pictures are equal your score is increased
+by 1.
+You have 60 seconds per each level.
+You may choose three levels:
+"Tropical Birds"; "Sea"; "Pirate treasures".
+Enjoy your game!:)

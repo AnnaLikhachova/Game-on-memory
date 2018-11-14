@@ -1,0 +1,91 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#menu{
+-fx-background-image: url("/main.jpg");
+		
+}
+#birdMenu{
+-fx-background-image: url("/bird.jpg");
+		
+}
+#seaMenu{
+-fx-background-image: url("/sea.jpg");		
+}
+
+#treasureMenu{
+-fx-background-image: url("/treasure.jpg");		
+}
+
+#scoreMenu{
+-fx-background-image: url("/score.jpg");		
+}
+
+.buttonBirdsMenu{
+
+-fx-font: italic bold 30px Trattatello, fantasy;
+-fx-text-fill: white;
+-fx-pref-height:100;
+-fx-pref-width:150;
+-fx-border-width: 3;
+-fx-border-color: #ffffff;
+-fx-background-color: linear-gradient(#61a2b1, #40E0D0);
+}
+
+
+.button{
+
+-fx-font: italic bold 30px Trattatello, fantasy;
+-fx-text-fill: white;
+-fx-pref-height:100;
+-fx-pref-width:280;
+-fx-border-width: 3;
+-fx-border-color: #ffffff;
+-fx-background-color: linear-gradient(#61a2b1, #40E0D0);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.img-view {
+    -fx-stroke-width: 2.0;
+}
+
+.img-view:hover {
+    -fx-stroke: #70c0e7;
+}
+
+.img-view:selected {
+    -fx-stroke: #26A0DA;
+}
+
+.button:hover {
+ -fx-background-color: linear-gradient(#40E0D0, #61a2b1);
+ }
+
+.label{
+-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );
+-fx-font: italic bold 30px Trattatello, fantasy;
+-fx-text-fill: white;
+-fx-background-color: transparent;
+-fx-pref-height:100;
+-fx-pref-width:300;
+}
+
+#labelK{
+	-fx-font: italic bold 40px Trattatello, fantasy;
+	-fx-text-fill: white;
+	-fx-text-alignment:left;
+	-fx-content-display:left;
+	-fx-background: brown;
+	-fx-pref-height:100;
+	-fx-pref-width:600;	
+}
+
+#labelR{
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: white;
+	-fx-text-alignment:left;
+	-fx-content-display:left;
+	-fx-background: brown;
+	-fx-pref-height:600;
+	-fx-pref-width:600;	
+}
+
+
